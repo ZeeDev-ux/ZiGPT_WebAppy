@@ -84,8 +84,8 @@ main {
 
 /* Message Bubbles */
 .message-row {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     border: 0.2px solid #505056;
