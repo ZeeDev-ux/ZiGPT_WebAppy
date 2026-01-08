@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIGPT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+
+    <div class="app-container">
+        <aside id="sidebar">
+            <div class="sidebar-header">
+                <button onclick="resetChat()" class="new-chat-btn">
+                    <span class="material-icons-outlined">add</span> New chat
+                </button>
+            </div>
+            <div id="chatList" class="chat-history"></div>
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <span class="avatar user-avatar">Z</span>
+                    <span>(Username)</span>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <header class="mobile-header">
+                <button onclick="toggleSidebar()"><span class="material-icons-outlined">menu</span></button>
+                <span>ZIGPT</span>
+                <button onclick="resetChat()"><span class="material-icons-outlined">add</span></button>
+            </header>
+
+            <div id="chatWindow">
+                <div id="welcome">
+                    <h1>ZIGPT</h1>
+                    <div class="suggestions">
+                        <div class="card">WRITE ANYTHING</div>
+                        <div class="card">HELP TO MAKE ASSIGNMENT</div>
+                        <div class="card">MAKE A PROFESSIONAL SCRIPT</div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="input-wrapper">
+                    <textarea id="userInput" rows="1" placeholder="TYPE YOUR MESSAGE" oninput="window.autoGrow(this)"></textarea>
+                    <button id="sendBtn" onclick="window.sendMessage()">
+                        <span class="material-icons-outlined">send</span>
+                    </button>
+                </div>
+                <p class="footer-note">@ZIGPT COPYRIGHT 2026, MADE BY ZEAN</p>
+            </footer>
+        </main>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
