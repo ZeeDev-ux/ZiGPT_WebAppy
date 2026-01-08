@@ -5,9 +5,12 @@ import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.g
 
 // 2. Firebase Config
 const firebaseConfig = {
-  apiKey: "AIzaSyA-ZjRYJW_3Y2EWDo6OZIVdxcP7rHIdWY4",
+  apiKey: "AIzaSyA-ZjRYJW_3Y2EWDo6OZIVdXcP7rHIdWY4",
   authDomain: "zigpt-beta.firebaseapp.com",
+  databaseURL: "https://zigpt-beta-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "zigpt-beta",
+  storageBucket: "zigpt-beta.firebasestorage.app",
+  messagingSenderId: "656169334494",
   appId: "1:656169334494:web:aa30ed1bca6407f971b44f"
 };
 
