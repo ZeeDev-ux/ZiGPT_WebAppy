@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwe6YAz7frkIEucV6PCs9sl1-IirYFVHJbK0cYU9xjXo5BU3xj7hkVi4YLZMYZnILa2Gg/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwhNy1HFaRNrm-LaeoZGDUR0y-HRUtJS5PfuVCJv6mKqlQDPI-A9bOkCVitGXVoKyzLmQ/exec";
 
 // 3. GLOBAL FUNCTIONS (window. prefix zaroori hai)
 window.autoGrow = function(el) {
