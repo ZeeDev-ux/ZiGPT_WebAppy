@@ -5,7 +5,7 @@ import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.g
 
 // 2. Firebase Config
 const firebaseConfig = {
-  apiKey: "AIzaSyAZjRYJW3Y2EWDo6OZIVdXcP7rHIdWY4",
+  apiKey: "AIzaSyDQ0USXawKchus3EDwUi3EnKGqU1Z0GO3A",
   authDomain: "zigpt-beta.firebaseapp.com",
   databaseURL: "https://zigpt-beta-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "zigpt-beta",
@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwhNy1HFaRNrm-LaeoZGDUR0y-HRUtJS5PfuVCJv6mKqlQDPI-A9bOkCVitGXVoKyzLmQ/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzNuQ_7bdA4-Se4abW2DXsE_zUS5S1LYl4fQEBtrpHEl8R2JvJ8avV2Mh07JIvhTZVRAQ/exec";
 
 // 3. GLOBAL FUNCTIONS (window. prefix zaroori hai)
 window.autoGrow = function(el) {
